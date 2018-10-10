@@ -1,0 +1,74 @@
+@charset "utf-8";
+.start_content{
+    header{
+        background: #000;
+        height: 3.2rem;
+        line-height: 3.2rem;
+        width: 10rem;
+        margin: 5rem auto 0rem auto;
+        color: #fff;
+        text-align: center;
+        border-radius: .5rem;
+        //实现水平垂直居中
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        
+        img{
+            height: 2.2rem;
+        }
+    }
+    
+    .notice{
+        color: red;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .content{
+        .user_list{
+            display: flex;
+            flex-wrap: wrap;
+            padding: .5rem;
+            
+            li{
+                width: 25%;
+                padding: .5rem;
+                box-sizing: border-box;
+                text-align: center;
+                 
+                span{
+                    display: block;
+                    background: #fff;
+                    width: 100%;
+                    height: 3.2rem;
+                    line-height: 3.2rem;
+                    border-radius: .5rem;
+                    border: 1px solid #ccc;
+                }
+            }
+        }
+    }
+    
+    .start{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        position: fixed;
+        left: 50%;
+        bottom: 5rem;
+        transform: translateX(-50%);
+        background: red;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        
+        span{
+            width: 2rem;
+            display: block;
+        }
+    }
+   
+
+}
